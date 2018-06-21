@@ -1,0 +1,42 @@
+
+.SearchResults {
+    width: 100%;
+    height: 900px;
+    overflow-y: scroll;
+    padding: .88rem;
+    background-color: rgba(1, 12, 63, 0.7);
+    box-shadow: 0 4px 2px 2px #000000;
+  }
+
+.SearchResults table {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    
+  }
+
+  .SearchResults th {
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  .SearchResults td {
+    padding: 20px;
+    border-bottom: 3px solid #FFF
+  }
+
+  ::-webkit-scrollbar {
+      width: 20px;
+      background:transparent;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .SearchResults {
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .SearchResults a:hover {
+    cursor: pointer;
+  }
